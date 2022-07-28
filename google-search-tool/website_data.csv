@@ -1,0 +1,11 @@
+Domain,HTML before author,HTML after author,Email format,Character separating author's first and surname (leave blank if space),Country
+www.ft.com,"Person"",""@context"":""http://schema.org"",""name"":""","""",{first}.{last}@ft.com,,
+www.theguardian.com,"Person"",""name"":""","""",{first}.{last}@theguardian.com,,UK
+edition.cnn.com,"""author"":""By ","""",@cnn.com,,US
+www.washingtonpost.com,"""author"":[""","""]",{first}.{last}@washpost.com,,
+www.thetimes.co.uk,"Person"",""name"":""","""",{first}.{last}@thetimes.co.uk,,
+www.reuters.com,"<a href=""/authors/","""",{first}.{last}@thomsonreuters.com,-,
+www.dailymail.co.uk,"<meta name =""author"" content=""","""",,,
+www.aljazeera.com,"name=""author"" content=""","""",,,
+www.politico.com,"""content_byline"":""By ","""",{f}{last}@politico.com,,
+www.france24.com,,,,,FR
