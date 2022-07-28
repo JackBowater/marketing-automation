@@ -1,0 +1,8 @@
+--------------------------------------------
+Zero Bounce file shortener
+--------------------------------------------
+
+To use:
+1) Download ZB data and extract it.
+2) Select desired spreadsheet and save it as "input.csv".
+3) Run "ZB-cleaner.py" in the same folder as the input. This will create "output.csv".

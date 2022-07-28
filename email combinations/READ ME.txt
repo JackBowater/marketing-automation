@@ -1,0 +1,29 @@
+----------------
+EMAIL COMBINATION MAKER
+----------------
+
+1) Save google-search-tool output as .csv (MS-DOT if using excel) without changing the order of any of the columns.
+2. Rename file to "input.csv"
+3) Run email-maker.py
+
+
+
+Title allowed at top.
+Outputs the following combinations:
+	lastfirst@company.com
+	firstlast@company.com
+	last.first@company.com
+	first.last@company.com
+	f.last@company.com
+	l.first@company.com
+	flast@company.com
+	lfirst@company.com
+	last.f@company.com
+	first.l@company.com
+	lastf@company.com
+	firstl@company.com
+All characters converted to lowercase.
+Outputs emails as a list, can import to spreadsheet.
+If first or last name contain two or more words, creates the combinations again with:
+	1. Just the first word of the first name.
+	2. Just the first word of the second name.
